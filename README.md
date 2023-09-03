@@ -1,4 +1,5 @@
-Ubuntu has the drivers from stock but needs to do this:
+# Ubuntu 
+Ubuntu 22.04.3 LTS has the drivers from stock but needs to do this:
 sudo apt remove brltty
 
 It will allow platformio to see the USB-serial driver
