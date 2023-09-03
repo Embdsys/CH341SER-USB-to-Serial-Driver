@@ -1,3 +1,8 @@
+Ubuntu has the drivers from stock but needs to do this:
+sudo apt remove brltty
+
+It will allow platformio to see the USB-serial driver
+
 # CH341SER driver
 
 1. [About driver](#about-driver)  
