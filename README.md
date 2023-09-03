@@ -4,6 +4,9 @@ sudo apt remove brltty
 
 It will allow platformio to see the USB-serial driver
 
+If you still have permission issues do this before uploading:
+sudo chmod a+rw /dev/ttyUSB0
+
 # CH341SER driver
 
 1. [About driver](#about-driver)  
